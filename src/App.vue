@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <!--Início Navbar-->
     <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
       <div class="container-fluid">
@@ -15,6 +16,7 @@
       </div>
     </nav>
     <!--Fim Navbar-->
+
     <div class="container mt-5">
       <router-view />
     </div>
