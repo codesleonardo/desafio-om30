@@ -1,4 +1,3 @@
-<!-- eslint-disable max-len -->
 <template>
   <div class="container">
     <div class="card">
@@ -10,7 +9,7 @@
 
           <!--Início Bloco: Nome Completo do Paciente-->
           <div class="form-group">
-            <label class="font-weight-bold">Nome Completo</label>
+            <label class="font-weight-bold" for="paciente-nome">Nome Completo</label>
             <input type="text"
               class="form-control"
               placeholder="Digite seu nome completo"
@@ -21,7 +20,7 @@
 
           <!--Início Bloco: Nome Completo da Mãe-->
           <div class="form-group">
-            <label class="font-weight-bold">Nome Completo da Mãe</label>
+            <label class="font-weight-bold" for="nome-mae">Nome Completo da Mãe</label>
             <input type="text"
             class="form-control"
             placeholder="Digite o nome completo da sua mãe"
@@ -32,7 +31,7 @@
 
           <!--Início Bloco: Data de Nascimento-->
           <div class="form-group">
-            <label class="font-weight-bold">Data de Nascimento</label>
+            <label class="font-weight-bold" for="data-nascimento">Data de Nascimento</label>
             <input type="date"
             class="form-control"
             placeholder="DD/MM/ANO"
@@ -43,7 +42,7 @@
 
           <!--Início Bloco: CPF-->
           <div class="form-group">
-            <label class="font-weight-bold">CPF</label>
+            <label class="font-weight-bold" for="cpf">CPF</label>
             <input type="number"
             class="form-control"
             placeholder="Digite seu CPF"
@@ -54,7 +53,7 @@
 
           <!--Início Bloco: CNS-->
           <div class="form-group">
-            <label class="font-weight-bold">CNS</label>
+            <label class="font-weight-bold" for="cns">CNS</label>
             <input type="number"
             class="form-control"
             placeholder="Digite seu CNS"
@@ -65,7 +64,7 @@
 
           <!--Início Bloco: CEP-->
           <div class="form-group">
-            <label class="font-weight-bold">CEP</label>
+            <label class="font-weight-bold" for="cep">CEP</label>
             <input type="number"
             class="form-control"
             placeholder="Digite seu CEP"
